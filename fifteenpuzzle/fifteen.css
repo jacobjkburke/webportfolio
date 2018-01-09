@@ -1,0 +1,38 @@
+/* 
+Jacob Burke
+May 1st, 2017
+CSE 154
+Section AJ Susan Wolfgram
+Assignment 4 - Fifteen Puzzle
+CSS and styling code for the fifteen-puzzle webpage
+*/
+
+body {
+    font-size: 14pt; 
+    font-family: cursive;
+    text-align: center;
+}
+
+#puzzlearea {
+    width: 400px;
+    height: 400px;
+	position: relative;
+    margin: auto;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-size: 40pt;
+    position: absolute;
+    background-image: url(background.jpg);
+}
+
+.highlight:hover {
+    border-color: red;
+    color: red;
+    cursor: pointer;
+}

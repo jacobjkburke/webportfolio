@@ -1,0 +1,111 @@
+/* The CSS code that styles the webpage movie.html "TMNT - Rancid Tomatoes"*/
+
+body {
+    background-image: url(./img/moviebg.png);
+    font-size: 12pt;
+    font-family: "Arial", "Helevetica", sans-serif;  
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#banner {
+    background-image: url("./img/rancidbannerbg.png");
+    height: 50px;  
+}
+
+h1 {
+    font-size: 24pt;
+    text-shadow: 3px 3px #999999;
+}
+
+ h1, .review{
+    font-family: "Georgia", "Times New Roman", sans-serif;
+}
+
+.main {
+    background-color: #EEEEEE;
+    display: flex;
+}
+
+.main, #outer-footer {
+    max-width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%; 
+    box-shadow: 5px 5px 5px gray;
+}
+
+.header, .main {
+   text-align: left; 
+}
+
+.header {
+    background-image: url("./img/rottenlargebg.png");
+    height: 83px;
+    margin-bottom: 1em;
+    color: red;
+    font-size: 48pt;
+}
+
+div > strong {
+    position: absolute;
+}
+
+.review-colomn {
+    font-size: 13pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 2;
+}
+
+.review {
+    background: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 12px;
+    padding: 1em;
+}
+
+.critic {
+    padding-bottom: 20px;
+}
+
+.critic > img, .review > img {
+    padding-right: 5px;
+    float: left;
+}
+
+
+.info-colomn {
+    
+    flex: 1;  
+}
+.info-colomn, #outer-footer {
+    background-color:  #A2B964;
+}
+
+dl {
+    margin: 15px;
+}
+
+dt {
+    margin-top: 15px;
+}
+
+#outer-footer {
+    padding: 0em;   
+}
+
+#inner-footer {
+    padding: 0.5em;   
+}
+
+#validate1, #validate2 {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#validate1 {
+    bottom: 35px;
+}

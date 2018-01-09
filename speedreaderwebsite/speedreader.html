@@ -1,0 +1,63 @@
+<!--
+Jacob Burke
+April 16th, 2017
+CSE 154
+Section AJ Susan Wolfgram
+Assignment 2 - TMNT
+-->
+
+<!--This HTML, CSS and JS code creates a webpage that reads input to a user at a requested WPM.  It does so using the Rapid Serial Visual Presentation that allows user to read things faster as they don't verbally say the words in their brain, they just process it.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>SpeedReader</title>
+      <link rel="stylesheet" href="speedreader.css" type="text/css">
+      <script src="speedreader.js" type="text/javascript"></script>
+  </head>
+  <body>
+      <h1>SpeedReader</h1>
+      <div id="readBox-container">
+          <div id="readBox-layer"></div>
+      </div>
+      <div id="controls">
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <div id="play-controls">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Speed:</legend>
+            <div id="speed">
+            <select id="speed-input">
+                <option value="1200">50</option>
+                <option value="200">300</option>
+                <option value="171" selected="selected">350</option>
+                <option value="150">400</option>
+                <option value="133">450</option>
+                <option value="120">500</option>
+            </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Size:</legend>
+            <div id="size">
+                <input type="radio" name="cc" id="medium" value="36pt" checked="checked" /> Medium
+                <input type="radio" name="cc" id="big" value="48pt" /> Big
+                <input type="radio" name="cc" id="bigger" value="60pt" /> Bigger
+            </div>
+        </fieldset>
+      </div>
+      <div id="inputText">
+      <fieldset>
+        <legend><span id="input">Input Text</span></legend>
+        <div>
+            <textarea id="textareaId" rows="10" cols="80"></textarea>
+        </div>
+      </fieldset>
+      </div>
+  </body>
+</html>

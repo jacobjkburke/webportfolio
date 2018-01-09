@@ -1,0 +1,81 @@
+/* CSS code for the speedreader webpage*/
+
+body {
+    font-size: 12pt;  
+    background-color: #EAF6F6;
+    font-family: "Garamond", serif;
+    text-align: center;
+}
+
+input, button, select {
+    font-size: inherit;
+}
+
+#readBox-container, #inputText, #controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+#controls {
+   justify-content: center;
+}
+
+#readBox-layer {
+    width: 80%;
+    height: 100px;
+    font-size: 36pt;
+    font-family: monospace;
+    line-height: 100px;
+    border: 2px solid #8EBEBE;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+legend, #readBox-layer {
+    font-weight: bold;
+}
+
+fieldset {
+    border: 0; 
+}
+
+legend {
+    border-bottom: 1px solid #8EBEBE;
+    text-align: left;
+    width: 100%;
+    padding: 2px; 
+    margin-bottom: 4px;
+}
+
+#textareaId, #readBox-layer, button {
+    background-color: #FFFFFF;
+}
+
+#textareaId, button {
+    border: 1px solid gray;
+}
+
+button {
+    width: 70px;
+}
+
+button:disabled {
+    background-color: lightgray; 
+} 
+
+#validate1, #validate2, #validate3 {
+    position: absolute;
+    bottom: 0px;
+}
+
+#validate1 {
+    left: 5px;
+}
+
+#validate2 {
+    left: 100px;   
+}
+
+#validate3 {
+    left: 195px;
+}
